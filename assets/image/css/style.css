@@ -1,22 +1,63 @@
 @import url('https://fonts.googleapis.com/css2?family=Noto+Serif+HK:wght@500&family=Open+Sans:wght@300&display=swap');
 
+* {
+    margin: 0;
+    padding: 0;
+    border: none;
+}
+
 body {
     background-color: #C4B6B4;
     font-family: Open Sans;
     font-weight: 500;
-    color: black;
+    color: white;
 
 }
+/* headings and logo */
 
 h1 {
     font-family: Noto Serif Hong Kong;
     text-transform: uppercase;
-    letter-spacing: 4;
-    color: #E57812;
+    letter-spacing: 4px;
+    color: #E57812;   
 }
+
+#logo {
+    float: left;
+    font-size: 250%;
+    margin-left: 30px;
+}
+/* navigation links */
 
 #menu {
     font-size: 120%;
     letter-spacing: 4;
-    text-decoration-line: underline;
 }
+
+#menu, #logo {
+    line-height: 35px;
+}
+
+#menu li {
+    float: right;
+    list-style-type: none;
+    margin-right: 25px;
+}
+
+
+#menu a {
+text-decoration: none;
+color: inherit;
+}
+#menu a:hover {
+    border-bottom: 1px solid #E57812;
+}
+
+.active {
+    border-bottom: 1px solid #E57812;
+}
+
+
+
+
+
